@@ -11,7 +11,7 @@ $body = @{
 
 $headers = @{
     'Content-Type' = 'application/json'
-    'Authorization' = "Bearer $env:CHATGPT_TOKEN"
+    'Authorization' = "Bearer $env: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"
 }
 
 $jsonBody = $body | ConvertTo-Json
